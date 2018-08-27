@@ -17,12 +17,9 @@ public class AulaDia27 {
     public static void main(String[] args) {
         Cachorro dog1 = new Cachorro("Joao", 17, "basset");
         Cachorro dog2 = new Cachorro("JoaoMonstrao", 18, "vira-lata");
-        Petshop loja = new Petshop(0);
-        loja.compra(dog1);
-        loja.compra(dog2);
-        loja.imprime();
-        loja.venda(dog2);
-        loja.imprime();
+        Cachorro dog3 = new Cachorro("Aaao", 18, "vira-lata");
+        System.out.println("a quantidade de cachorros eh:  " +dog1.quantidadeCachorro);
+
         
         
     }
