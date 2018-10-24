@@ -16,12 +16,17 @@ public class UsaQuadrado {
     public static void main(String[] args) {
         Quadrado q1 = new Quadrado(5);
         Quadrado q2 = new Quadrado(6.3);
+        Quadrado q3 = new Quadrado(9.4);
 
         System.out.println("Area: " + q1.calcularArea());
         System.out.println("Perimetro " + q1.perimetro());
 
         System.out.println("Area: " + q2.calcularArea());
         System.out.println("Perimetro " + q2.perimetro());
+
+
+        System.out.println("Area: " + q3.calcularArea());
+        System.out.println("Perimetro " + q3.perimetro());
     }
 
 }
